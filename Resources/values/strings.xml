@@ -14,6 +14,7 @@
 	<string name="radioButtonMonths">Per Month</string>
 	<string name="calculate_button">Calculate</string>
 	<string name="result">Result</string>
-	<string name="how_much_need">How Much Do I Need To Save...</string>
-	<string name="how_much_have">How Much Will I Have If I Save...</string>
+	<string name="how_much_need">How Much Do I Need To Save Over Time</string>
+	<string name="how_much_have">Value Over Time</string>
+	<string name="desired_amount">Desired Amount</string>
 </resources>

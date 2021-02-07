@@ -13,7 +13,7 @@
         android:layout_marginTop="50.0dp"
         android:layout_marginBottom="25.0dp" />
     <Button
-        android:text="@string/how_much_need"
+        android:text="@string/desired_amount"
         android:layout_width="match_parent"
         android:layout_height="60.0dp"
         android:id="@+id/how_much_need_button"

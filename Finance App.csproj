@@ -61,15 +61,18 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BorrowActivity.cs" />
-    <Compile Include="Formulas.cs" />
-    <Compile Include="InvestActivity.cs" />
-    <Compile Include="Investment.cs" />
-    <Compile Include="Loan.cs" />
-    <Compile Include="MainActivity.cs" />
-    <Compile Include="MathLib.cs" />
+    <Compile Include="Activities\BorrowActivity.cs" />
+    <Compile Include="Formulas\Formulas.cs" />
+    <Compile Include="Activities\InvestActivity.cs" />
+    <Compile Include="Activities\InvestHowMuchSaveActivity.cs" />
+    <Compile Include="Formulas\Investment.cs" />
+    <Compile Include="Activities\InvestOptionsActivity.cs" />
+    <Compile Include="Formulas\Loan.cs" />
+    <Compile Include="Activities\MainActivity.cs" />
+    <Compile Include="Formulas\MathLib.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -123,6 +126,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\activity_options_invest.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_invest_how_much_to_save.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

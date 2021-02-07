@@ -24,7 +24,7 @@ namespace Finance_App
 
             investButton.Click += (sender, e) =>
             {
-                var intent = new Intent(this, typeof(InvestActivity));
+                var intent = new Intent(this, typeof(InvestOptionsACtivity));
                 StartActivity(intent);
             };
 
